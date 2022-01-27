@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+}
+
+body > div {
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: red;
+}
+
+body > div > div {
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: blue;
+}
+
+body > div > div > div {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+    border: 3px solid black;
+}
+
+.left {
+    border-left: 3px solid black;
+}
+
+.top {
+    border-top: 3px solid black;
+}
+
+.right {
+    border-right: 3px solid black;
+}
+
+.bottom {
+    border-bottom: 3px solid black;
+}
